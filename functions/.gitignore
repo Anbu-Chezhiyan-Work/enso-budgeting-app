@@ -1,0 +1,46 @@
+# Node.js
+node_modules/
+dist/
+build/
+
+# Env files
+.env
+.env.*
+!.env.example   # keep a safe example for devs
+
+# Logs
+*.log
+
+# Firebase Emulator data
+.firebase-data/
+
+# Firebase service account or creds
+*creds*.json
+
+# IDE / Editor
+.idea/
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Test reports
+TEST*.xml
+coverage/
+
+# Misc
+*.class
+*.py[cod]
+*.jar
+*.war
+*.exe
+*.app
+
+# Large media files (avoid committing raw assets)
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
