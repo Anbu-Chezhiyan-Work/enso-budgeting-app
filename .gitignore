@@ -17,14 +17,12 @@ dist-ssr/
 # Local env files
 .env
 .env.*
-!.env.example   # keep an example for others
 
 # Local configs
 *.local
 
 # Firebase Emulator data
-.firebase-data/
-firestore_export/
+firebase-export*
 
 # Firebase service accounts / creds
 *creds*.json

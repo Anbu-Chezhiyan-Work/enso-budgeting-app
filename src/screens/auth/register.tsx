@@ -17,8 +17,7 @@ export default function Register() {
 
   const handleSignup = async () => {
     const { email, password } = authInfo;
-    const res = await signup({ email, password });
-    console.log("Signup result:", res);
+    await signup({ email, password });
   };
 
   return (

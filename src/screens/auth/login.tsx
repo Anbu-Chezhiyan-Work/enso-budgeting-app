@@ -13,10 +13,13 @@ export default function Login() {
   });
 
   const [login, { isLoading: loginLoading }] = useLoginMutation();
+
   const handleLogin = async () => {
     const { email, password } = authInfo;
     await login({ email, password });
   };
+
+  console.log(loginLoading, "isLoading");
 
   return (
     <div className="w-80 h-fit p-4 flex flex-col gap-3 bg-white rounded-lg shadow">
